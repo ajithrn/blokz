@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Bricks Child Theme
+ Theme URI:    https://ajithrn.com/
+ Description:  Bricks Child theme.
+ Author:       Ajith
+ Author URI:   https://ajithrn.com/
+ Template:     bricks
+ Version:      1.0
+ Text Domain:  bricks
+*/
+
+@media only screen and (max-width: 768px) {
+  root .bricks-site-logo {
+    max-height: 40px;
+  }
+}
