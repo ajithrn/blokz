@@ -20,6 +20,85 @@ add_action( 'init', function() {
 }, 11 );
 
 /**
+ * Filter which elements to show in the builder
+ * 
+ * Simple outcomment (prefix: //) the elements you don't want to use in Bricks
+ */
+function bricks_filter_builder_elements( $elements ) {
+	$elements = [
+		// Basic
+	  'container', // since 1.2
+	  'heading',
+		'text',
+		'button',
+		'icon',
+		'image',
+		'video',
+
+		// General
+		'divider',
+		'icon-box',
+		'list',
+		'accordion',
+		'tabs',
+		'form',
+		'map',
+		'alert',
+		'animated-typing',
+		'countdown',
+		'counter',
+		'pricing-tables',
+		'progress-bar',
+		'pie-chart',
+		'team-members',
+		'testimonials',
+		'html',
+		'code',
+		'logo',
+
+		// Media
+		'image-gallery',
+		'audio',
+		'carousel',
+		'slider',
+		'svg',
+
+		// Social
+		'social-icons',
+		'facebook-page',
+		'instagram-feed',
+
+		// WordPress
+		'wordpress',
+		'posts',
+		'nav-menu',
+		'sidebar',
+		'search',
+		'shortcode',
+
+		// Single
+		'post-title',
+		'post-excerpt',
+		'post-meta',
+		'post-content',
+		'post-sharing',
+		'post-related-posts',
+		'post-author',
+		'post-comments',
+		'post-taxonomy',
+		'post-navigation',
+
+		// Hidden in builder panel
+		'section',
+		'row',
+		'column',
+	];
+
+	return $elements;
+}
+// add_filter( 'bricks/builder/elements', 'bricks_filter_builder_elements' );
+
+/**
  * Add text strings to builder
  */
 add_filter( 'bricks/builder/i18n', function( $i18n ) {
