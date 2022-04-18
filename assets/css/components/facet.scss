@@ -1,0 +1,39 @@
+/**
+* facet search related styles
+*/
+
+button.facetwp-load-more {
+  align-items: center;
+  border-width: 0;
+  color: #ffffff;
+  background-color: $color-primary;
+  display: inline-block;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  letter-spacing: .5px;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 3px 15px;
+  border-radius: 4px;
+  &:hover {
+    background-color: darken($color-primary, 10%);
+  }
+}
+
+.facetwp-type-checkboxes {
+  margin-bottom: 30px;
+  .facetwp-checkbox {
+    &:hover {
+      color: $color-primary;
+    }
+    &.checked {
+      font-weight: 600;
+      color: $color-primary;
+    }
+  }
+}
