@@ -12,7 +12,6 @@
  */
 $module_includes = [
   'modules/dynamic-snippets/global/global.php',    // function snippets to generate dynamic data
-  'modules/dynamic-snippets/user/user.php',    // user / ministry custom functions
   'modules/dynamic-snippets/events/events.php',    // Event Block Custom functions.
 ];
 
