@@ -18,7 +18,7 @@ $module_includes = [
 
 foreach ($module_includes as $file) {
   if (!$filepath = locate_template($file)) {
-    trigger_error(sprintf(__('Error locating %s for inclusion', 'biotics'), $file), E_USER_ERROR);
+    trigger_error(sprintf(__('Error locating %s for inclusion', 'blokz'), $file), E_USER_ERROR);
   }
 
   require_once $filepath;
