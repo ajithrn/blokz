@@ -13,6 +13,7 @@ $module_includes = [
   'modules/utility-functions/utility-functions.php',    // Scripts for global utility
   'modules/dynamic-snippets/dynamic-snippets.php',    // Scripts for additional bricks dynamic function.
   'modules/bricks/bricks.php',    // Scripts for additional bricks features.
+  'modules/site-settings/site-settings.php', // functions for site settings pages 
 
 ];
 
