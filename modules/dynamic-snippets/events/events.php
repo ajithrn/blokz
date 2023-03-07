@@ -17,7 +17,7 @@ function blokz_event_date () {
     if (tribe_event_is_all_day($post)) :
       return tribe_get_start_date($post->ID, false, 'l, M j, Y');
     else :
-      return tribe_get_start_date($post->ID, false, 'l, M j, Y, g:i A');
+      return tribe_get_start_date($post->ID, false, 'l, M j, Y, g:i A').' - '.tribe_get_end_date($post->ID, false, 'g:i A');
     endif; 
   }
 }
