@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: KMS Option Page
+Plugin Name: Blokz Option Page
 Plugin URI: http://www.kwirx.com/
 Description: Custom options panel to manage logos, slider and default stuffs.
 Version: 1.0.0
 Author: Kwirx
 Author URI: http://www.kwirx.com/
 Copyright: Kwirx
-Text Domain: kms-mod
+Text Domain: blokz-options
 
 */
 
